@@ -14,6 +14,15 @@ http.createServer(function (req, res) {
     res.end(fs.readFileSync("upload.html", "utf8")); //end the response
 
 
+    }else if(req.url.startsWith("/files/")){
+        console.log()
+        if (fs.existsSync(__dirname +req.url.replace("%20", " "))) {
+        res.end(fs.readFileSync(__dirname +req.url.replace("%20", " ")))
+        }else{
+            res.writeHead(404)
+            res.end("404 error")
+        }
+        
     }
   }).listen(80); //the server object listens on port 8080
   
@@ -36,7 +45,7 @@ app.route('/upload')
             file.pipe(fstream);
             fstream.on('close', function () {    
                 console.log("Upload Finished of " + filename);              
-                res.redirect('back');           //where to go next
+                res.redirect(200,"http://localhost/files/" + filename);           //where to go next
             });
         });
     });
