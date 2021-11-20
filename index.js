@@ -16,8 +16,8 @@ http.createServer(function (req, res) {
 
     }else if(req.url.startsWith("/files/")){
         console.log()
-        if (fs.existsSync(__dirname +req.url.replace("%20", " "))) {
-        res.end(fs.readFileSync(__dirname +req.url.replace("%20", " ")))
+        if (fs.existsSync(__dirname +req.url.replace(/%20/g, " "))) {
+        res.end(fs.readFileSync(__dirname +req.url.replace(/%20/g, " ")))
         }else{
             res.writeHead(404)
             res.end("404 error")
@@ -45,7 +45,7 @@ app.route('/upload')
             file.pipe(fstream);
             fstream.on('close', function () {    
                 console.log("Upload Finished of " + filename);              
-                res.redirect(200,"http://localhost/files/" + filename);           //where to go next
+                res.redirect("http://localhost/files/" + filename);           //where to go next
             });
         });
     });
