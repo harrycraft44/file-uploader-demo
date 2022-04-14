@@ -48,7 +48,11 @@ http.createServer(function (req, res) {
 
         res.writeHead(200,"text/html")
         var url = "http://86.184.210.187"+req.url.replace("/video","")
-        res.write(`<html><body style=  "height: 100vh;width: 100vw;overflow: hidden;"> 
+        res.write(`
+        <html>
+        <link rel="stylesheet" href="http://86.184.210.187/css/global.css">
+
+        <body style=  "height: 100vh;width: 100vw;overflow: hidden;"> 
         <script>if ( window.history.replaceState ) {window.history.replaceState( null, null, window.location.href );}</script><video width="1000px " height="500px" controls>
         <source src="${url}" type="video/mp4">
       </video> <form action="http://86.184.210.187:8080/like" method="POST" style="display: inline-block;">
@@ -64,6 +68,8 @@ http.createServer(function (req, res) {
     }else if(req.url.startsWith("/video")){
         res.writeHead(200,"text/html")
         res.end(fs.readFileSync("videoupload.html", "utf8")); //end the response
+    }else if ("/css/global.css"){
+      res.end(fs.readFileSync("D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\css\\global.css"))
     }
 
 }).listen(80); //the server object listens on port 8080
