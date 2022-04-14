@@ -1,0 +1,126 @@
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
+Error: Cannot find module '@pm2/io'
+Require stack:
+- D:\htsandyoutube\hts\software\node\file uploader demo\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Module.Hook._require.Module.require (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (D:\htsandyoutube\hts\software\node\file uploader demo\index.js:8:12)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Object.<anonymous> (C:\Users\harry rogers\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\htsandyoutube\\hts\\software\\node\\file uploader demo\\index.js'
+  ]
+}
